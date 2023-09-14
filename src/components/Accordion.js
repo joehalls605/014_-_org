@@ -31,6 +31,7 @@ function Accordion({ items }) {
           {icon}
         </div>
         {isExpanded && <div className="border-b p-5">{item.content}</div>}
+        <div>Testing new branch</div>
       </div>
     );
   });
